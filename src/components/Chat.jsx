@@ -28,7 +28,7 @@ export default function Chat() {
 
 
   const handleChange = (e) => {
-    const text = e.target.value.trim();
+    const text = e.target.value;
     console.log(text);
     setUserInput(text);
   };
